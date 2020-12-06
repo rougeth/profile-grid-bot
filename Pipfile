@@ -4,10 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pytest = "*"
+pytest-tornasync = "*"
+pytest-mock = "*"
+pdbpp = "*"
+black = "==20.8b1"
+flake8 = "*"
 
 [packages]
 "discord.py" = "*"
 pillow = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.9"
